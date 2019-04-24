@@ -1396,7 +1396,7 @@ class AdminController extends Controller
                 // 生成ss scheme
                 $ss_str = $user->method . ':' . $user->passwd . '@';
                 $ss_str .= ($node->server ? $node->server : $node->ip) . ':' . $user->port;
-                $ss_str = base64url_encode($ss_str) . '#' . 'VPN';
+                $ss_str = base64url_encode($ss_str) . '#' . urlencode($node->name);
                 $ss_scheme = 'ss://' . $ss_str;
 
                 // 生成配置信息

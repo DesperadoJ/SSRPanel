@@ -181,7 +181,7 @@ class UserController extends Controller
                 // 生成ss scheme
                 $ss_str = Auth::user()->method . ':' . Auth::user()->passwd . '@';
                 $ss_str .= ($node->server ? $node->server : $node->ip) . ':' . Auth::user()->port;
-                $ss_str = base64url_encode($ss_str) . '#' . 'VPN';
+                $ss_str = base64url_encode($ss_str) . '#' . urlencode($node->name);
                 $ss_scheme = 'ss://' . $ss_str;
 
                 // 生成文本配置信息
