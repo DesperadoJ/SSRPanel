@@ -41,7 +41,7 @@
         <!-- BEGIN LOGO -->
         <div class="page-logo">
             @if(\App\Components\Helpers::systemConfig()['website_logo'])
-                <a href="{{url('/')}}"><img src="{{\App\Components\Helpers::systemConfig()['website_logo']}}" alt="logo" class="logo-default" style="width:150px; height:30px;"/> </a>
+                <a href="{{url('/')}}"><img src="{{\App\Components\Helpers::systemConfig()['website_logo']}}" alt="logo" class="logo-default"/> </a>
             @else
                 <a href="{{url('/')}}"><img src="/assets/images/logo.png" alt="logo" class="logo-default" /> </a>
             @endif
