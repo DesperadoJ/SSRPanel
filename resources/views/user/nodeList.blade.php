@@ -261,8 +261,7 @@
                                 @endif
                             @else
                                 @if($node->v2_scheme)
-                                    <p></p>
-                                    <textarea class="form-control" rows="3" readonly="readonly">{{$node->v2_scheme}}</textarea>
+                                    <textarea class="form-control" rows="5" readonly="readonly">{{$node->v2_scheme}}</textarea>
                                     <a href="{{$node->v2_scheme}}" class="btn blue uppercase" style="display: block; width: 100%;margin-top: 10px;">打开V2ray</a>
                                 @endif
                             @endif
