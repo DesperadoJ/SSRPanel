@@ -404,7 +404,7 @@
             var clipboard = new Clipboard(copy_all_nodes);
 
             clipboard.on('success', function(e) {
-                layer.alert("复制成功，通过右键菜单倒入节点链接即可", {icon:1, title:'提示'});
+                layer.alert("复制成功，通过右键菜单导入节点链接即可", {icon:1, title:'提示'});
             });
 
             clipboard.on('error', function(e) {
