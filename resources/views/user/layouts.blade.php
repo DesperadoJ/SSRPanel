@@ -180,7 +180,7 @@
 <!-- END CONTAINER -->
 <!-- BEGIN FOOTER -->
 <div class="page-footer">
-    <div class="page-footer-inner"> Copyright &copy; 2017 - 2019 <a href="https://github.com/ssrpanel/ssrpanel" target="_blank">SSRPanel</a> {{config('version.name')}} </div>
+    <div class="page-footer-inner"> Copyright &copy; 2017 - 2019 <a href="https://github.com/DesperadoJ/SSRPanel" target="_blank">SSRPanel</a> {{config('version.name')}} </div>
     <div class="scroll-to-top">
         <i class="icon-arrow-up"></i>
     </div>
@@ -234,16 +234,6 @@
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
 <script src="/assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
 <!-- END THEME LAYOUT SCRIPTS -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122312249-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-122312249-1');
-</script>
 
 <!-- 统计 -->
 {!! \App\Components\Helpers::systemConfig()['website_analytics'] !!}

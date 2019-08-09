@@ -83,16 +83,6 @@
     <script src="/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     @yield('script')
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122312249-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-122312249-1');
-    </script>
-
     <!-- 统计 -->
     {!! \App\Components\Helpers::systemConfig()['website_analytics'] !!}
     <!-- 客服 -->
