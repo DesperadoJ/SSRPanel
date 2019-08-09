@@ -1205,28 +1205,26 @@ CREATE TABLE `device` (
 -- Records of `device`
 -- ----------------------------
 INSERT INTO `device` (`id`, `type`, `platform`, `name`, `status`, `header`) VALUES
-  (1, 1, 1, 'Quantumult', 1, 'Quantumult'),
-  (2, 1, 1, 'Shadowrocket', 1, 'Shadowrocket'),
-  (3, 1, 3, 'ShadowsocksX-NG-R', 1, 'ShadowsocksX-NG-R'),
-  (4, 1, 1, 'Pepi', 1, 'Pepi'),
-  (5, 1, 1, 'Potatso 2', 1, 'Potatso'),
-  (6, 1, 1, 'Potatso Lite', 1, 'Potatso'),
-  (7, 1, 4, 'ShadowsocksR', 1, 'ShadowsocksR'),
-  (8, 2, 4, 'V2RayW', 1, 'V2RayW'),
-  (9, 2, 4, 'V2RayN', 1, 'V2RayN'),
-  (10, 2, 4, 'V2RayS', 1, 'V2RayS'),
-  (11, 2, 4, 'Clash for Windows', 1, 'Clash'),
-  (12, 2, 3, 'V2RayX', 1, 'V2RayX'),
-  (13, 2, 3, 'V2RayU', 1, 'V2RayU'),
-  (14, 2, 3, 'V2RayC', 1, 'V2RayC'),
-  (15, 2, 3, 'ClashX', 1, 'ClashX'),
-  (16, 2, 1, 'Kitsunebi', 1, 'Kitsunebi'),
-  (17, 2, 1, 'Kitsunebi Lite', 1, 'Kitsunebi'),
-  (18, 2, 1, 'i2Ray', 1, 'i2Ray'),
-  (19, 2, 2, 'BifrostV', 1, 'BifrostV'),
-  (20, 2, 2, 'V2RayNG', 1, 'V2RayNG'),
-  (21, 2, 2, 'ShadowsocksR', 1, 'okhttp'),
-  (22, 2, 2, 'SSRR', 1, 'okhttp');
+  (1, 0, 1, 'Quantumult', 1, 'Quantumult'),
+  (2, 0, 1, 'Shadowrocket', 1, 'Shadowrocket'),
+  (3, 0, 1, 'Pharos', 1, 'Pharos'),
+  (4, 1, 1, 'Potatso 2', 1, 'Potatso'),
+  (5, 1, 1, 'Potatso Lite', 1, 'Potatso'),
+  (6, 1, 2, 'ShadowsocksR', 1, 'okhttp'),
+  (7, 1, 2, 'SSRR', 1, 'okhttp'),
+  (8, 1, 3, 'ShadowsocksX-NG-R', 1, 'ShadowsocksX-NG-R'),
+  (9, 1, 4, 'ShadowsocksR', 1, 'ShadowsocksR'),
+  (10, 2, 1, 'Kitsunebi', 1, 'Kitsunebi'),
+  (11, 2, 1, 'i2Ray', 1, 'i2Ray'),
+  (12, 2, 1, 'Pepi', 1, 'Pepi'),
+  (13, 2, 2, 'v2RayNG', 1, 'v2RayNG'),
+  (14, 2, 2, 'Kitsunebi', 1, 'Kitsunebi'),
+  (15, 2, 3, 'V2RayX', 1, 'V2RayX'),
+  (16, 2, 3, 'V2RayU', 1, 'V2RayU'),
+  (17, 2, 3, 'V2RayC', 1, 'V2RayC'),
+  (18, 2, 3, 'ClashX', 1, 'ClashX'),
+  (19, 2, 4, 'v2RayN', 1, 'v2RayN'),
+  (20, 2, 4, 'Clash for Windows', 1, 'Clash');
 
 
 -- ----------------------------
